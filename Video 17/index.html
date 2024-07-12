@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* element selector */
+        div {
+            background-color: rebeccapurple;
+        }
+
+        /* class selector */
+        .one{
+            color: yellowgreen;
+        }
+
+        /* id selector */
+        #two{
+            background-color: brown;
+
+        }
+
+        /* child selector */
+        div>p{
+            color: aqua;
+        }
+        div span {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Universal Selector */
+        * {
+            margin:0;
+            padding: 0;
+        }
+        a:link{
+            color: rgb(137, 195, 177);
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        a:visited{
+            color: pink;
+        }
+        a:active{
+            background-color: red;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        My name is div
+        <p id="two">my name is para</p>
+        <span>my name is span</span>
+    </div>
+    <a href="https://www.google.com" target="_blank">google</a>
+    <a href="https://www.facebook.com">facebook</a>
+    <a href="https://www.instagram.com">instagram</a>
+
+    <article>
+        <h1>this is article h1&lt;p&gt;</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos excepturi deleniti omnis cum mollitia aperiam architecto temporibus nam aliquam </p>
+    </article>
+    
+</body>
+</html>
