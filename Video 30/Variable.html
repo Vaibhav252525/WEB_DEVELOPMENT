@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<style>
+    :root {
+        --color: red;
+        --border-color: maroon;
+        --textsize: 23px;
+        --mypad: 5px
+    }
+
+    div {
+        background-color: var(--color);
+    }
+
+    p {
+        border: 2px solid var(--border-color);
+        font-size: var(--textsize);
+        padding: var(--mypad);
+    }
+</style>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eos.
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo temporibus id dolor, necessitatibus quos
+        impedit sint, cumque laborum aliquid earum minima ex.</p>
+</body>
+
+</html>
