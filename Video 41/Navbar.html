@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+</head>
+<style>
+    @media only screen and (max-width:600px) {
+        li {
+            display: none;
+        }
+
+        img {
+
+            opacity: 0.9;
+
+        }
+
+    }
+
+    #menu {
+        opacity: 0.9;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        border: 2px solid red;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        font-weight: bold;
+        margin-right: 30px;
+    }
+
+    img {
+        width: 10%;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <img src="netflix.png" alt="#">
+            <div id="menu">
+
+                <img src="ham.png" alt="#">
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>Orders</li>
+                <li>About us</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
