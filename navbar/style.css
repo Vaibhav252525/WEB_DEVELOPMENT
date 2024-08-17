@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#head{
+    background-color:#1e272c;
+    height: 7vh;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    
+    color: white;
+    
+}
+li{
+    margin: 5px;
+
+}
+
+
+#btn1{
+    color: white;
+    background-color: #1e272c74;
+    width:100px;
+    padding: 5px;
+    border-style: none;
+    border: 3px solid rgb(32, 28, 28);
+}
+#btn2{
+    color: white;
+    background-color: #1173ee;
+    width:120px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 2px;
+}
